@@ -34,7 +34,7 @@ h1 {
 
 button {
     background-color: #05c7cf;
-    color: white
+    color: white;
     border: none;
     padding: 8px 16px;
     font-size: 24px;
@@ -69,8 +69,8 @@ li {
     justify-content: center;
 }
 
-#about
-#discord
+#about,
+#discord,
 #contact,
  footer {
     padding: 48px 0;
@@ -141,15 +141,16 @@ footer {
     align-items: center;
 }
 
-footer__logo {
+.footer__logo {
+    width: 100%;
     max-width: 480px;
     margin-bottom: 16px;
 }
 
-footer__links {
-    margin-top: 32px;
+.footer__links {
+    margin-bottom: 32px;
 }
 
-footer__link {
+.footer__link {
     padding: 0 16px;
 }
